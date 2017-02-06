@@ -976,7 +976,7 @@ Class dzn_baseClassToSwizzleForTarget(id target)
             [subviewStrings addObject:@"detailLabel"];
             views[[subviewStrings lastObject]] = _detailLabel;
             
-            [self.contentView addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-(padding@750)-[detailLabel(>=0)]-(padding@750)-|"
+            [self.contentView addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-(padding@1000)-[detailLabel(>=0)]-(padding@1000)-|"
                                                                                      options:0 metrics:metrics views:views]];
         }
         // or removes from its superview
